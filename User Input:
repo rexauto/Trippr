@@ -1,0 +1,9 @@
+// Implement user input functionalities, such as adding new destinations and activities.
+
+class AddDestinationViewController: UIViewController {
+    // Implement a form to add a new destination with relevant details.
+}
+
+class AddActivityViewController: UIViewController {
+    // Implement a form to add a new activity with relevant details for a specific destination.
+}
