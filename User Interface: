@@ -1,0 +1,6 @@
+// Design the user interface using Interface Builder and Auto Layout.
+
+// Example:
+// Create storyboard with view controllers and set up user interface elements.
+// Connect UI elements to view controllers as outlets and actions.
+// Implement table views, collection views, and other elements to display data.
