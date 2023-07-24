@@ -1,0 +1,17 @@
+// Create data models to represent the different components of a trip (e.g., destination, activity, itinerary).
+
+struct Destination {
+    var name: String
+    var description: String
+    var imageURL: String
+}
+
+struct Activity {
+    var name: String
+    var description: String
+}
+
+struct Itinerary {
+    var destination: Destination
+    var activities: [Activity]
+}
