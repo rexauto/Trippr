@@ -1,0 +1,7 @@
+// Implement navigation between view controllers using navigation controllers and segues.
+
+// Example: 
+let storyboard = UIStoryboard(name: "Main", bundle: nil)
+let destinationDetailVC = storyboard.instantiateViewController(withIdentifier: "DestinationDetailViewController") as! DestinationDetailViewController
+destinationDetailVC.destination = selectedDestination
+self.navigationController?.pushViewController(destinationDetailVC, animated: true)
