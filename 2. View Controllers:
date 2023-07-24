@@ -1,0 +1,15 @@
+// Create view controllers to manage different screens of the app (e.g., home screen, destination details, itinerary).
+
+import UIKit
+
+class HomeViewController: UIViewController {
+    // Implement the home screen with a list of destinations and a button to add a new destination.
+}
+
+class DestinationDetailViewController: UIViewController {
+    // Display details of a selected destination, including its description and activities.
+}
+
+class ItineraryViewController: UIViewController {
+    // Show the itinerary with a list of added destinations and activities for the trip.
+}
